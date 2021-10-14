@@ -4,12 +4,12 @@
         <title>Ejercicio Formulario</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="recursos/estilos.css"/>
-        <script type="text/javascript" src="recursos/funciones.js"></script>
-        
+        <script src="recursos/funciones.js"></script>        
     </head>
     <body>
-        <form name="form1" action="/Leccion04/Servlet" method="post" onsubmit="return "> <!-- action llama al servlet, 
-                                                                                  onsubmit llama a una funcion del archivo javascript-->
+        <form name="form1" action="/Leccion04/Servlet" method="post" onsubmit="return validarForma(this)"> 
+            <!-- action llama al servlet, onsubmit llama a una funcion del archivo javascript que se llama validarForma
+            el this se refiere a que "este" es el formulario que va a usar la función-->
             <input type="hidden" name="oculto" value="valorOculto"/>
             <table width="200" id="enfasis-columa">
                 <caption>
