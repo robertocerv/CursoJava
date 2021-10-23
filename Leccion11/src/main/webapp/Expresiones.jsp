@@ -7,5 +7,14 @@
     </head>
     <body>
         <h1>jsp con expresiones</h1>
+        <br>
+        Concatenacion: <%= "Saludos"+ " " + "JSP" %>
+        <br>
+        Operacion  matematica: <%= 2*3/2 %> 
+        <br>
+        Sesson id: <%= session.getId() %>
+        <br>
+        <br>
+        <<a href="index.html">Regresar</a>
     </body>
 </html>
