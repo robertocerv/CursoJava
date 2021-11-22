@@ -13,15 +13,15 @@
     </head>
     <body>
         <%--Cabecero--%>
-        <jsp:include page="WEB-INF/paginas/comunes/cabecero.jsp"/>
+        <jsp:include page="/WEB-INF/paginas/comunes/cabecero.jsp"/>
         <%--Botones de Naviegación--%>
-        <jsp:include page="WEB-INF/paginas/comunes/BotonesNavegacion.jsp"/>
+        <jsp:include page="/WEB-INF/paginas/comunes/BotonesNavegacion.jsp"/>
 
         <%--Listado Clientes--%>
-        <jsp:include page="WEB-INF/paginas/cliente/listadoClientes.jsp"/>
+        <jsp:include page="/WEB-INF/paginas/cliente/listadoClientes.jsp"/>
 
         <%--Pie de pagina--%>
-        <jsp:include page="WEB-INF/paginas/comunes/piePagina.jsp"/>
+        <jsp:include page="/WEB-INF/paginas/comunes/piePagina.jsp"/>
 
 
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
